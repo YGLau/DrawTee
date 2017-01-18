@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80DE3FFF78672D3332EF5553 /* libPods-DrawTee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C840CE1C3B6E421095299937 /* libPods-DrawTee.a */; };
 		A40A40921DF3C6D00095BBDA /* YGHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A40A40911DF3C6D00095BBDA /* YGHeadView.m */; };
 		A40A40931DF3C6D00095BBDA /* YGHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A40A40911DF3C6D00095BBDA /* YGHeadView.m */; };
 		A40A40941DF3C6D00095BBDA /* YGHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = A40A40911DF3C6D00095BBDA /* YGHeadView.m */; };
@@ -81,57 +82,6 @@
 		A45D2BD01DF2810A00C0746C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45D2BCF1DF2810A00C0746C /* Info.plist */; };
 		A45D2BD11DF2810A00C0746C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45D2BCF1DF2810A00C0746C /* Info.plist */; };
 		A45D2BD21DF2810A00C0746C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45D2BCF1DF2810A00C0746C /* Info.plist */; };
-		A45D2BF01DF2822000C0746C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45D2BD61DF2822000C0746C /* Info.plist */; };
-		A45D2BF11DF2822000C0746C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45D2BD61DF2822000C0746C /* Info.plist */; };
-		A45D2BF21DF2822000C0746C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A45D2BD61DF2822000C0746C /* Info.plist */; };
-		A45D2BF31DF2822000C0746C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BD81DF2822000C0746C /* MASCompositeConstraint.m */; };
-		A45D2BF41DF2822000C0746C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BD81DF2822000C0746C /* MASCompositeConstraint.m */; };
-		A45D2BF51DF2822000C0746C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BD81DF2822000C0746C /* MASCompositeConstraint.m */; };
-		A45D2BF61DF2822000C0746C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDB1DF2822000C0746C /* MASConstraint.m */; };
-		A45D2BF71DF2822000C0746C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDB1DF2822000C0746C /* MASConstraint.m */; };
-		A45D2BF81DF2822000C0746C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDB1DF2822000C0746C /* MASConstraint.m */; };
-		A45D2BF91DF2822000C0746C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDD1DF2822000C0746C /* MASConstraintMaker.m */; };
-		A45D2BFA1DF2822000C0746C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDD1DF2822000C0746C /* MASConstraintMaker.m */; };
-		A45D2BFB1DF2822000C0746C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDD1DF2822000C0746C /* MASConstraintMaker.m */; };
-		A45D2BFC1DF2822000C0746C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDF1DF2822000C0746C /* MASLayoutConstraint.m */; };
-		A45D2BFD1DF2822000C0746C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDF1DF2822000C0746C /* MASLayoutConstraint.m */; };
-		A45D2BFE1DF2822000C0746C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BDF1DF2822000C0746C /* MASLayoutConstraint.m */; };
-		A45D2BFF1DF2822000C0746C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE31DF2822000C0746C /* MASViewAttribute.m */; };
-		A45D2C001DF2822000C0746C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE31DF2822000C0746C /* MASViewAttribute.m */; };
-		A45D2C011DF2822000C0746C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE31DF2822000C0746C /* MASViewAttribute.m */; };
-		A45D2C021DF2822000C0746C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE51DF2822000C0746C /* MASViewConstraint.m */; };
-		A45D2C031DF2822000C0746C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE51DF2822000C0746C /* MASViewConstraint.m */; };
-		A45D2C041DF2822000C0746C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE51DF2822000C0746C /* MASViewConstraint.m */; };
-		A45D2C051DF2822000C0746C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE71DF2822000C0746C /* NSArray+MASAdditions.m */; };
-		A45D2C061DF2822000C0746C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE71DF2822000C0746C /* NSArray+MASAdditions.m */; };
-		A45D2C071DF2822000C0746C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BE71DF2822000C0746C /* NSArray+MASAdditions.m */; };
-		A45D2C081DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEA1DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		A45D2C091DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEA1DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		A45D2C0A1DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEA1DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		A45D2C0B1DF2822000C0746C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEC1DF2822000C0746C /* View+MASAdditions.m */; };
-		A45D2C0C1DF2822000C0746C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEC1DF2822000C0746C /* View+MASAdditions.m */; };
-		A45D2C0D1DF2822000C0746C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEC1DF2822000C0746C /* View+MASAdditions.m */; };
-		A45D2C0E1DF2822000C0746C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEF1DF2822000C0746C /* ViewController+MASAdditions.m */; };
-		A45D2C0F1DF2822000C0746C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEF1DF2822000C0746C /* ViewController+MASAdditions.m */; };
-		A45D2C101DF2822000C0746C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2BEF1DF2822000C0746C /* ViewController+MASAdditions.m */; };
-		A45D2C1F1DF2828E00C0746C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C131DF2828E00C0746C /* AFHTTPSessionManager.m */; };
-		A45D2C201DF2828E00C0746C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C131DF2828E00C0746C /* AFHTTPSessionManager.m */; };
-		A45D2C211DF2828E00C0746C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C131DF2828E00C0746C /* AFHTTPSessionManager.m */; };
-		A45D2C221DF2828E00C0746C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C161DF2828E00C0746C /* AFNetworkReachabilityManager.m */; };
-		A45D2C231DF2828E00C0746C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C161DF2828E00C0746C /* AFNetworkReachabilityManager.m */; };
-		A45D2C241DF2828E00C0746C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C161DF2828E00C0746C /* AFNetworkReachabilityManager.m */; };
-		A45D2C251DF2828E00C0746C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C181DF2828E00C0746C /* AFSecurityPolicy.m */; };
-		A45D2C261DF2828E00C0746C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C181DF2828E00C0746C /* AFSecurityPolicy.m */; };
-		A45D2C271DF2828E00C0746C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C181DF2828E00C0746C /* AFSecurityPolicy.m */; };
-		A45D2C281DF2828E00C0746C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1A1DF2828E00C0746C /* AFURLRequestSerialization.m */; };
-		A45D2C291DF2828E00C0746C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1A1DF2828E00C0746C /* AFURLRequestSerialization.m */; };
-		A45D2C2A1DF2828E00C0746C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1A1DF2828E00C0746C /* AFURLRequestSerialization.m */; };
-		A45D2C2B1DF2828E00C0746C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1C1DF2828E00C0746C /* AFURLResponseSerialization.m */; };
-		A45D2C2C1DF2828E00C0746C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1C1DF2828E00C0746C /* AFURLResponseSerialization.m */; };
-		A45D2C2D1DF2828E00C0746C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1C1DF2828E00C0746C /* AFURLResponseSerialization.m */; };
-		A45D2C2E1DF2828E00C0746C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1E1DF2828E00C0746C /* AFURLSessionManager.m */; };
-		A45D2C2F1DF2828E00C0746C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1E1DF2828E00C0746C /* AFURLSessionManager.m */; };
-		A45D2C301DF2828E00C0746C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C1E1DF2828E00C0746C /* AFURLSessionManager.m */; };
 		A45D2C391DF2CA1700C0746C /* UIColor+YGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C381DF2CA1700C0746C /* UIColor+YGExtension.m */; };
 		A45D2C3A1DF2CA1700C0746C /* UIColor+YGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C381DF2CA1700C0746C /* UIColor+YGExtension.m */; };
 		A45D2C3B1DF2CA1700C0746C /* UIColor+YGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A45D2C381DF2CA1700C0746C /* UIColor+YGExtension.m */; };
@@ -260,45 +210,6 @@
 		A45D2BCB1DF27F6D00C0746C /* YGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGMainViewController.m; sourceTree = "<group>"; };
 		A45D2BCF1DF2810A00C0746C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A45D2BD31DF2818900C0746C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		A45D2BD61DF2822000C0746C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A45D2BD71DF2822000C0746C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		A45D2BD81DF2822000C0746C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		A45D2BD91DF2822000C0746C /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		A45D2BDA1DF2822000C0746C /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		A45D2BDB1DF2822000C0746C /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		A45D2BDC1DF2822000C0746C /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		A45D2BDD1DF2822000C0746C /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		A45D2BDE1DF2822000C0746C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		A45D2BDF1DF2822000C0746C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		A45D2BE01DF2822000C0746C /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		A45D2BE11DF2822000C0746C /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		A45D2BE21DF2822000C0746C /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		A45D2BE31DF2822000C0746C /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		A45D2BE41DF2822000C0746C /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		A45D2BE51DF2822000C0746C /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		A45D2BE61DF2822000C0746C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		A45D2BE71DF2822000C0746C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		A45D2BE81DF2822000C0746C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		A45D2BE91DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		A45D2BEA1DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A45D2BEB1DF2822000C0746C /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		A45D2BEC1DF2822000C0746C /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		A45D2BED1DF2822000C0746C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		A45D2BEE1DF2822000C0746C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		A45D2BEF1DF2822000C0746C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		A45D2C121DF2828E00C0746C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		A45D2C131DF2828E00C0746C /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		A45D2C141DF2828E00C0746C /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		A45D2C151DF2828E00C0746C /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		A45D2C161DF2828E00C0746C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		A45D2C171DF2828E00C0746C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		A45D2C181DF2828E00C0746C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		A45D2C191DF2828E00C0746C /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		A45D2C1A1DF2828E00C0746C /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		A45D2C1B1DF2828E00C0746C /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		A45D2C1C1DF2828E00C0746C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		A45D2C1D1DF2828E00C0746C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		A45D2C1E1DF2828E00C0746C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		A45D2C311DF2C54E00C0746C /* GlobalHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalHeader.h; sourceTree = "<group>"; };
 		A45D2C371DF2CA1700C0746C /* UIColor+YGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YGExtension.h"; sourceTree = "<group>"; };
 		A45D2C381DF2CA1700C0746C /* UIColor+YGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YGExtension.m"; sourceTree = "<group>"; };
@@ -334,6 +245,9 @@
 		A4FCFB341DF6CCDB00AFA8B2 /* YGOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGOrderViewController.m; sourceTree = "<group>"; };
 		A4FCFB381DF6CEE700AFA8B2 /* YGTitleButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTitleButtonsView.h; sourceTree = "<group>"; };
 		A4FCFB391DF6CEE700AFA8B2 /* YGTitleButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTitleButtonsView.m; sourceTree = "<group>"; };
+		C840CE1C3B6E421095299937 /* libPods-DrawTee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawTee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C5A9A7D8A364A1DE0A915B /* Pods-DrawTee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawTee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawTee/Pods-DrawTee.debug.xcconfig"; sourceTree = "<group>"; };
+		F20817F47438D5982A2FC4DD /* Pods-DrawTee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawTee.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawTee/Pods-DrawTee.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +255,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80DE3FFF78672D3332EF5553 /* libPods-DrawTee.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +328,8 @@
 				A45D2B9A1DF27B1C00C0746C /* DrawTeeTests */,
 				A45D2BA51DF27B1C00C0746C /* DrawTeeUITests */,
 				A45D2B7F1DF27B1C00C0746C /* Products */,
+				E94DC09B8AEF022496D7A5F5 /* Pods */,
+				BF120E40F010F28FE7DCE3DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -471,7 +388,6 @@
 				A45D2BB51DF27EC600C0746C /* Home */,
 				A45D2C4B1DF2F77C00C0746C /* Shop */,
 				A45D2C541DF2FA1100C0746C /* UserCenter */,
-				A45D2BD41DF2821300C0746C /* Third Frameworks */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -561,68 +477,6 @@
 				A44787051DF947230064D7AE /* YGBaseTableViewCell.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		A45D2BD41DF2821300C0746C /* Third Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A45D2C111DF2828E00C0746C /* AFNetworking */,
-				A45D2BD51DF2822000C0746C /* Masonry */,
-			);
-			path = "Third Frameworks";
-			sourceTree = "<group>";
-		};
-		A45D2BD51DF2822000C0746C /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				A45D2BD61DF2822000C0746C /* Info.plist */,
-				A45D2BD71DF2822000C0746C /* MASCompositeConstraint.h */,
-				A45D2BD81DF2822000C0746C /* MASCompositeConstraint.m */,
-				A45D2BD91DF2822000C0746C /* MASConstraint+Private.h */,
-				A45D2BDA1DF2822000C0746C /* MASConstraint.h */,
-				A45D2BDB1DF2822000C0746C /* MASConstraint.m */,
-				A45D2BDC1DF2822000C0746C /* MASConstraintMaker.h */,
-				A45D2BDD1DF2822000C0746C /* MASConstraintMaker.m */,
-				A45D2BDE1DF2822000C0746C /* MASLayoutConstraint.h */,
-				A45D2BDF1DF2822000C0746C /* MASLayoutConstraint.m */,
-				A45D2BE01DF2822000C0746C /* Masonry.h */,
-				A45D2BE11DF2822000C0746C /* MASUtilities.h */,
-				A45D2BE21DF2822000C0746C /* MASViewAttribute.h */,
-				A45D2BE31DF2822000C0746C /* MASViewAttribute.m */,
-				A45D2BE41DF2822000C0746C /* MASViewConstraint.h */,
-				A45D2BE51DF2822000C0746C /* MASViewConstraint.m */,
-				A45D2BE61DF2822000C0746C /* NSArray+MASAdditions.h */,
-				A45D2BE71DF2822000C0746C /* NSArray+MASAdditions.m */,
-				A45D2BE81DF2822000C0746C /* NSArray+MASShorthandAdditions.h */,
-				A45D2BE91DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.h */,
-				A45D2BEA1DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m */,
-				A45D2BEB1DF2822000C0746C /* View+MASAdditions.h */,
-				A45D2BEC1DF2822000C0746C /* View+MASAdditions.m */,
-				A45D2BED1DF2822000C0746C /* View+MASShorthandAdditions.h */,
-				A45D2BEE1DF2822000C0746C /* ViewController+MASAdditions.h */,
-				A45D2BEF1DF2822000C0746C /* ViewController+MASAdditions.m */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		A45D2C111DF2828E00C0746C /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				A45D2C121DF2828E00C0746C /* AFHTTPSessionManager.h */,
-				A45D2C131DF2828E00C0746C /* AFHTTPSessionManager.m */,
-				A45D2C141DF2828E00C0746C /* AFNetworking.h */,
-				A45D2C151DF2828E00C0746C /* AFNetworkReachabilityManager.h */,
-				A45D2C161DF2828E00C0746C /* AFNetworkReachabilityManager.m */,
-				A45D2C171DF2828E00C0746C /* AFSecurityPolicy.h */,
-				A45D2C181DF2828E00C0746C /* AFSecurityPolicy.m */,
-				A45D2C191DF2828E00C0746C /* AFURLRequestSerialization.h */,
-				A45D2C1A1DF2828E00C0746C /* AFURLRequestSerialization.m */,
-				A45D2C1B1DF2828E00C0746C /* AFURLResponseSerialization.h */,
-				A45D2C1C1DF2828E00C0746C /* AFURLResponseSerialization.m */,
-				A45D2C1D1DF2828E00C0746C /* AFURLSessionManager.h */,
-				A45D2C1E1DF2828E00C0746C /* AFURLSessionManager.m */,
-			);
-			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		A45D2C361DF2C9D400C0746C /* Category */ = {
@@ -738,6 +592,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		BF120E40F010F28FE7DCE3DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C840CE1C3B6E421095299937 /* libPods-DrawTee.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E94DC09B8AEF022496D7A5F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3C5A9A7D8A364A1DE0A915B /* Pods-DrawTee.debug.xcconfig */,
+				F20817F47438D5982A2FC4DD /* Pods-DrawTee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -745,9 +616,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A45D2BAB1DF27B1C00C0746C /* Build configuration list for PBXNativeTarget "DrawTee" */;
 			buildPhases = (
+				9A16CEFA3828D3C9AB60004E /* [CP] Check Pods Manifest.lock */,
 				A45D2B7A1DF27B1C00C0746C /* Sources */,
 				A45D2B7B1DF27B1C00C0746C /* Frameworks */,
 				A45D2B7C1DF27B1C00C0746C /* Resources */,
+				03E23988C16BAB0CB09D17C9 /* [CP] Embed Pods Frameworks */,
+				1FB940AABC6A34C2AE48B753 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -848,7 +722,6 @@
 			files = (
 				A45D2B8E1DF27B1C00C0746C /* Assets.xcassets in Resources */,
 				A45D2BD01DF2810A00C0746C /* Info.plist in Resources */,
-				A45D2BF01DF2822000C0746C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,7 +729,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45D2BF11DF2822000C0746C /* Info.plist in Resources */,
 				A45D2BD11DF2810A00C0746C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -865,12 +737,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45D2BF21DF2822000C0746C /* Info.plist in Resources */,
 				A45D2BD21DF2810A00C0746C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E23988C16BAB0CB09D17C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawTee/Pods-DrawTee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FB940AABC6A34C2AE48B753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawTee/Pods-DrawTee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A16CEFA3828D3C9AB60004E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A45D2B7A1DF27B1C00C0746C /* Sources */ = {
@@ -879,11 +798,7 @@
 			files = (
 				A4FCFB211DF65BEF00AFA8B2 /* YGAddrManageController.m in Sources */,
 				A45D2C5F1DF2FA8E00C0746C /* YGProfileViewController.m in Sources */,
-				A45D2C081DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A45D2C5A1DF2FA6100C0746C /* YGHomeViewController.m in Sources */,
-				A45D2C021DF2822000C0746C /* MASViewConstraint.m in Sources */,
-				A45D2BF31DF2822000C0746C /* MASCompositeConstraint.m in Sources */,
-				A45D2C051DF2822000C0746C /* NSArray+MASAdditions.m in Sources */,
 				A44786E81DF900530064D7AE /* YGGoodCell.m in Sources */,
 				A4B8E9D91DF7967900CF304F /* YGOrderCell.m in Sources */,
 				A44787061DF947230064D7AE /* YGBaseTableViewCell.m in Sources */,
@@ -897,43 +812,31 @@
 				A4FCFB261DF65C3900AFA8B2 /* YGAddressViewCell.m in Sources */,
 				A44786FC1DF935DE0064D7AE /* YGPayMethodCell.m in Sources */,
 				A4473C3B1DF52F99007080F1 /* YGRegistrationController.m in Sources */,
-				A45D2C1F1DF2828E00C0746C /* AFHTTPSessionManager.m in Sources */,
 				A45D2BCC1DF27F6D00C0746C /* YGMainViewController.m in Sources */,
 				A44786F21DF935B40064D7AE /* YGAddressCell.m in Sources */,
 				A44787011DF9422A0064D7AE /* YGPayButton.m in Sources */,
-				A45D2C221DF2828E00C0746C /* AFNetworkReachabilityManager.m in Sources */,
-				A45D2BFC1DF2822000C0746C /* MASLayoutConstraint.m in Sources */,
 				A4473C4F1DF56EBF007080F1 /* YGVerticalButton.m in Sources */,
 				A4473C4A1DF568A6007080F1 /* YGFindPwdView.m in Sources */,
 				A45D2C481DF2D58E00C0746C /* YGNavigationViewController.m in Sources */,
 				A4473C591DF5A4CF007080F1 /* YGSettingsCell.m in Sources */,
 				A45D2BC91DF27F2F00C0746C /* AppDelegate.m in Sources */,
-				A45D2C2E1DF2828E00C0746C /* AFURLSessionManager.m in Sources */,
 				A4B8E9ED1DF8362800CF304F /* YGTeeView.m in Sources */,
 				A4B8E9E31DF8185E00CF304F /* YGUploadController.m in Sources */,
 				A4B8E9DE1DF7BBE400CF304F /* YGDialog.m in Sources */,
 				A4FCFB351DF6CCDB00AFA8B2 /* YGOrderViewController.m in Sources */,
-				A45D2C2B1DF2828E00C0746C /* AFURLResponseSerialization.m in Sources */,
 				A45D2C431DF2CD4000C0746C /* YGTabBar.m in Sources */,
-				A45D2C0E1DF2822000C0746C /* ViewController+MASAdditions.m in Sources */,
-				A45D2C0B1DF2822000C0746C /* View+MASAdditions.m in Sources */,
 				A44786F71DF935CF0064D7AE /* YGOrderDetailCell.m in Sources */,
-				A45D2C281DF2828E00C0746C /* AFURLRequestSerialization.m in Sources */,
-				A45D2C251DF2828E00C0746C /* AFSecurityPolicy.m in Sources */,
 				A44786E31DF8FB950064D7AE /* YGBottomPayView.m in Sources */,
 				A4FCFB2B1DF6745A00AFA8B2 /* YGModificationAddrController.m in Sources */,
 				A4473C541DF57AEC007080F1 /* YGSettingsViewController.m in Sources */,
 				A4473C311DF51BD4007080F1 /* YGOtherLoginView.m in Sources */,
 				A4FCFB301DF6769600AFA8B2 /* YGModificationView.m in Sources */,
-				A45D2BFF1DF2822000C0746C /* MASViewAttribute.m in Sources */,
 				A4473C2C1DF512FE007080F1 /* YGLoginDashBoard.m in Sources */,
 				A4473C401DF52FCA007080F1 /* YGFindPwdController.m in Sources */,
 				A40A40921DF3C6D00095BBDA /* YGHeadView.m in Sources */,
 				A4473C451DF53811007080F1 /* YGRegistrationView.m in Sources */,
 				A45D2C391DF2CA1700C0746C /* UIColor+YGExtension.m in Sources */,
-				A45D2BF61DF2822000C0746C /* MASConstraint.m in Sources */,
 				A4473C271DF511E7007080F1 /* YGLoginController.m in Sources */,
-				A45D2BF91DF2822000C0746C /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -944,41 +847,27 @@
 				A4FCFB271DF65C3900AFA8B2 /* YGAddressViewCell.m in Sources */,
 				A4473C411DF52FCA007080F1 /* YGFindPwdController.m in Sources */,
 				A4B8E9E91DF81F8100CF304F /* YGUploadView.m in Sources */,
-				A45D2BF71DF2822000C0746C /* MASConstraint.m in Sources */,
 				A4473C2D1DF512FE007080F1 /* YGLoginDashBoard.m in Sources */,
-				A45D2C261DF2828E00C0746C /* AFSecurityPolicy.m in Sources */,
-				A45D2C001DF2822000C0746C /* MASViewAttribute.m in Sources */,
 				A45D2C441DF2CD4000C0746C /* YGTabBar.m in Sources */,
-				A45D2C0F1DF2822000C0746C /* ViewController+MASAdditions.m in Sources */,
 				A44786FD1DF935DE0064D7AE /* YGPayMethodCell.m in Sources */,
 				A44787021DF9422A0064D7AE /* YGPayButton.m in Sources */,
 				A4B8E9DA1DF7967900CF304F /* YGOrderCell.m in Sources */,
 				A45D2C491DF2D58E00C0746C /* YGNavigationViewController.m in Sources */,
-				A45D2BFA1DF2822000C0746C /* MASConstraintMaker.m in Sources */,
 				A44787071DF947230064D7AE /* YGBaseTableViewCell.m in Sources */,
-				A45D2C091DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A45D2C521DF2F7BB00C0746C /* YGShopViewController.m in Sources */,
 				A40A40931DF3C6D00095BBDA /* YGHeadView.m in Sources */,
 				A44786F81DF935CF0064D7AE /* YGOrderDetailCell.m in Sources */,
 				A45D2B9C1DF27B1C00C0746C /* DrawTeeTests.m in Sources */,
 				A4473C281DF511E7007080F1 /* YGLoginController.m in Sources */,
 				A4473C461DF53811007080F1 /* YGRegistrationView.m in Sources */,
-				A45D2C291DF2828E00C0746C /* AFURLRequestSerialization.m in Sources */,
 				A4FCFB361DF6CCDB00AFA8B2 /* YGOrderViewController.m in Sources */,
 				A4473C501DF56EBF007080F1 /* YGVerticalButton.m in Sources */,
-				A45D2BF41DF2822000C0746C /* MASCompositeConstraint.m in Sources */,
 				A4473C321DF51BD4007080F1 /* YGOtherLoginView.m in Sources */,
-				A45D2C2F1DF2828E00C0746C /* AFURLSessionManager.m in Sources */,
 				A44786EE1DF90BB30064D7AE /* YGPayViewController.m in Sources */,
-				A45D2C0C1DF2822000C0746C /* View+MASAdditions.m in Sources */,
-				A45D2C061DF2822000C0746C /* NSArray+MASAdditions.m in Sources */,
 				A4473C3C1DF52F99007080F1 /* YGRegistrationController.m in Sources */,
-				A45D2BFD1DF2822000C0746C /* MASLayoutConstraint.m in Sources */,
-				A45D2C2C1DF2828E00C0746C /* AFURLResponseSerialization.m in Sources */,
 				A4B8E9DF1DF7BBE400CF304F /* YGDialog.m in Sources */,
 				A4473C551DF57AEC007080F1 /* YGSettingsViewController.m in Sources */,
 				A4B8E9EE1DF8362800CF304F /* YGTeeView.m in Sources */,
-				A45D2C231DF2828E00C0746C /* AFNetworkReachabilityManager.m in Sources */,
 				A45D2C3A1DF2CA1700C0746C /* UIColor+YGExtension.m in Sources */,
 				A44786E91DF900530064D7AE /* YGGoodCell.m in Sources */,
 				A4B8E9E41DF8185E00CF304F /* YGUploadController.m in Sources */,
@@ -989,10 +878,8 @@
 				A4FCFB221DF65BEF00AFA8B2 /* YGAddrManageController.m in Sources */,
 				A4FCFB3B1DF6CEE700AFA8B2 /* YGTitleButtonsView.m in Sources */,
 				A40A409D1DF3DC550095BBDA /* YGMyOrderView.m in Sources */,
-				A45D2C031DF2822000C0746C /* MASViewConstraint.m in Sources */,
 				A4473C5A1DF5A4CF007080F1 /* YGSettingsCell.m in Sources */,
 				A45D2C5B1DF2FA6100C0746C /* YGHomeViewController.m in Sources */,
-				A45D2C201DF2828E00C0746C /* AFHTTPSessionManager.m in Sources */,
 				A44786F31DF935B40064D7AE /* YGAddressCell.m in Sources */,
 				A4FCFB2C1DF6745A00AFA8B2 /* YGModificationAddrController.m in Sources */,
 				A4473C4B1DF568A6007080F1 /* YGFindPwdView.m in Sources */,
@@ -1007,41 +894,27 @@
 				A4FCFB281DF65C3900AFA8B2 /* YGAddressViewCell.m in Sources */,
 				A4473C421DF52FCA007080F1 /* YGFindPwdController.m in Sources */,
 				A4B8E9EA1DF81F8100CF304F /* YGUploadView.m in Sources */,
-				A45D2BF81DF2822000C0746C /* MASConstraint.m in Sources */,
 				A4473C2E1DF512FE007080F1 /* YGLoginDashBoard.m in Sources */,
-				A45D2C271DF2828E00C0746C /* AFSecurityPolicy.m in Sources */,
-				A45D2C011DF2822000C0746C /* MASViewAttribute.m in Sources */,
 				A45D2C451DF2CD4000C0746C /* YGTabBar.m in Sources */,
-				A45D2C101DF2822000C0746C /* ViewController+MASAdditions.m in Sources */,
 				A44786FE1DF935DE0064D7AE /* YGPayMethodCell.m in Sources */,
 				A44787031DF9422A0064D7AE /* YGPayButton.m in Sources */,
 				A4B8E9DB1DF7967900CF304F /* YGOrderCell.m in Sources */,
 				A45D2C4A1DF2D58E00C0746C /* YGNavigationViewController.m in Sources */,
-				A45D2BFB1DF2822000C0746C /* MASConstraintMaker.m in Sources */,
 				A44787081DF947230064D7AE /* YGBaseTableViewCell.m in Sources */,
-				A45D2C0A1DF2822000C0746C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A45D2C531DF2F7BB00C0746C /* YGShopViewController.m in Sources */,
 				A40A40941DF3C6D00095BBDA /* YGHeadView.m in Sources */,
 				A44786F91DF935CF0064D7AE /* YGOrderDetailCell.m in Sources */,
 				A45D2BA71DF27B1C00C0746C /* DrawTeeUITests.m in Sources */,
 				A4473C291DF511E7007080F1 /* YGLoginController.m in Sources */,
 				A4473C471DF53811007080F1 /* YGRegistrationView.m in Sources */,
-				A45D2C2A1DF2828E00C0746C /* AFURLRequestSerialization.m in Sources */,
 				A4FCFB371DF6CCDB00AFA8B2 /* YGOrderViewController.m in Sources */,
 				A4473C511DF56EBF007080F1 /* YGVerticalButton.m in Sources */,
-				A45D2BF51DF2822000C0746C /* MASCompositeConstraint.m in Sources */,
 				A4473C331DF51BD4007080F1 /* YGOtherLoginView.m in Sources */,
-				A45D2C301DF2828E00C0746C /* AFURLSessionManager.m in Sources */,
 				A44786EF1DF90BB30064D7AE /* YGPayViewController.m in Sources */,
-				A45D2C0D1DF2822000C0746C /* View+MASAdditions.m in Sources */,
-				A45D2C071DF2822000C0746C /* NSArray+MASAdditions.m in Sources */,
 				A4473C3D1DF52F99007080F1 /* YGRegistrationController.m in Sources */,
-				A45D2BFE1DF2822000C0746C /* MASLayoutConstraint.m in Sources */,
-				A45D2C2D1DF2828E00C0746C /* AFURLResponseSerialization.m in Sources */,
 				A4B8E9E01DF7BBE400CF304F /* YGDialog.m in Sources */,
 				A4473C561DF57AEC007080F1 /* YGSettingsViewController.m in Sources */,
 				A4B8E9EF1DF8362800CF304F /* YGTeeView.m in Sources */,
-				A45D2C241DF2828E00C0746C /* AFNetworkReachabilityManager.m in Sources */,
 				A45D2C3B1DF2CA1700C0746C /* UIColor+YGExtension.m in Sources */,
 				A44786EA1DF900530064D7AE /* YGGoodCell.m in Sources */,
 				A4B8E9E51DF8185E00CF304F /* YGUploadController.m in Sources */,
@@ -1052,10 +925,8 @@
 				A4FCFB231DF65BEF00AFA8B2 /* YGAddrManageController.m in Sources */,
 				A4FCFB3C1DF6CEE700AFA8B2 /* YGTitleButtonsView.m in Sources */,
 				A40A409E1DF3DC550095BBDA /* YGMyOrderView.m in Sources */,
-				A45D2C041DF2822000C0746C /* MASViewConstraint.m in Sources */,
 				A4473C5B1DF5A4CF007080F1 /* YGSettingsCell.m in Sources */,
 				A45D2C5C1DF2FA6100C0746C /* YGHomeViewController.m in Sources */,
-				A45D2C211DF2828E00C0746C /* AFHTTPSessionManager.m in Sources */,
 				A44786F41DF935B40064D7AE /* YGAddressCell.m in Sources */,
 				A4FCFB2D1DF6745A00AFA8B2 /* YGModificationAddrController.m in Sources */,
 				A4473C4C1DF568A6007080F1 /* YGFindPwdView.m in Sources */,
@@ -1175,6 +1046,7 @@
 		};
 		A45D2BAC1DF27B1C00C0746C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3C5A9A7D8A364A1DE0A915B /* Pods-DrawTee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1189,6 +1061,7 @@
 		};
 		A45D2BAD1DF27B1C00C0746C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20817F47438D5982A2FC4DD /* Pods-DrawTee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
